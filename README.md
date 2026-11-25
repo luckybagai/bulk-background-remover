@@ -38,6 +38,8 @@ On 10 November 2026 we ran a batch of 50 photos through the free tool, made from
 ## Other tools on the site that work the same way
 
 - [Extract frames from a video](https://luckybagai.com/extract-frames-from-video/): plays your video from a local `blob:` address and saves frames as JPG.
+- [Remove EXIF data and location](https://luckybagai.com/remove-exif-data/): reads the file's bytes, drops the metadata blocks (GPS, camera, date, XMP, IPTC, comments) and copies the picture data as it is, so nothing is re-compressed.
+- [Photo grid maker](https://luckybagai.com/photo-grid-maker/): draws 2 to 9 photos onto one canvas and saves a JPG.
 - [Compress JPEG to a size in KB](https://luckybagai.com/compress-jpeg/) and [batch resize](https://luckybagai.com/batch-resize/): canvas only, no model.
 - [Signature background remover](https://luckybagai.com/remove-background-from-signature/): canvas only, no model.
 - [Receipt scanner](https://luckybagai.com/receipt-scanner/): reads the text with Tesseract.js in the browser.
